@@ -1,0 +1,111 @@
+{
+  "company": "Acme Corp",
+  "currency": "INR",
+  "employees": [
+    {
+      "id": "EMP1001",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@acme.example",
+      "personal_email_masked": "pr****@gmail.com",
+      "phone_last4": "4521",
+      "bank_last4": "7781",
+      "department": "Engineering",
+      "designation": "Senior Software Engineer",
+      "manager": "Karthik Rao",
+      "location": "Chennai",
+      "joined": "2021-06-14",
+      "leave_entitlement": {"annual": 18, "sick": 10, "casual": 6},
+      "leave_taken": {"annual": 9, "sick": 2, "casual": 3},
+      "salary": {"basic": 85000, "hra": 34000, "special_allowance": 41000, "pf": 10200, "professional_tax": 200, "income_tax": 18500},
+      "assets": [
+        {"tag": "LT-4471", "type": "Laptop", "model": "Dell Latitude 7440", "issued": "2024-01-10", "warranty_until": "2027-01-09"},
+        {"tag": "MN-2210", "type": "Monitor", "model": "Dell P2723D 27-inch", "issued": "2024-01-10", "warranty_until": "2027-01-09"},
+        {"tag": "HS-0932", "type": "Headset", "model": "Jabra Evolve2 40", "issued": "2025-03-02", "warranty_until": "2027-03-01"}
+      ]
+    },
+    {
+      "id": "EMP1002",
+      "name": "Rahul Verma",
+      "email": "rahul.verma@acme.example",
+      "personal_email_masked": "ra****@outlook.com",
+      "phone_last4": "9034",
+      "bank_last4": "2290",
+      "department": "Sales",
+      "designation": "Account Executive",
+      "manager": "Meera Nair",
+      "location": "Bengaluru",
+      "joined": "2023-02-01",
+      "leave_entitlement": {"annual": 18, "sick": 10, "casual": 6},
+      "leave_taken": {"annual": 14, "sick": 1, "casual": 5},
+      "salary": {"basic": 60000, "hra": 24000, "special_allowance": 26000, "pf": 7200, "professional_tax": 200, "income_tax": 8200},
+      "assets": [
+        {"tag": "LT-5102", "type": "Laptop", "model": "Lenovo ThinkPad T14 Gen 4", "issued": "2023-02-01", "warranty_until": "2026-12-31"},
+        {"tag": "PH-0417", "type": "Mobile phone", "model": "Samsung Galaxy A55", "issued": "2024-07-15", "warranty_until": "2026-07-14"}
+      ]
+    },
+    {
+      "id": "EMP1003",
+      "name": "Ananya Iyer",
+      "email": "ananya.iyer@acme.example",
+      "personal_email_masked": "an****@gmail.com",
+      "phone_last4": "6618",
+      "bank_last4": "5047",
+      "department": "Marketing",
+      "designation": "Content Strategist",
+      "manager": "Vikram Shah",
+      "location": "Chennai",
+      "joined": "2026-09-01",
+      "leave_entitlement": {"annual": 6, "sick": 4, "casual": 2},
+      "leave_taken": {"annual": 0, "sick": 0, "casual": 1},
+      "salary": {"basic": 52000, "hra": 20800, "special_allowance": 19200, "pf": 6240, "professional_tax": 200, "income_tax": 5100},
+      "assets": [
+        {"tag": "LT-6230", "type": "Laptop", "model": "Apple MacBook Air 13 M3", "issued": "2026-09-01", "warranty_until": "2027-08-31"}
+      ]
+    }
+  ],
+  "systems": [
+    {"key": "email", "name": "Email (Outlook / Exchange Online)", "status": "operational", "note": ""},
+    {"key": "vpn", "name": "GlobalProtect VPN", "status": "degraded", "note": "Incident INC-7731: intermittent disconnects on the Chennai gateway since 09:40 IST today. Workaround: choose the Bengaluru gateway in GlobalProtect. Fix expected by 18:00 IST."},
+    {"key": "wifi", "name": "Office Wi-Fi (ACME-CORP)", "status": "operational", "note": ""},
+    {"key": "sap", "name": "SAP SuccessFactors (HR and payroll)", "status": "operational", "note": ""},
+    {"key": "jira", "name": "Jira and Confluence", "status": "operational", "note": ""},
+    {"key": "sharepoint", "name": "SharePoint / OneDrive", "status": "maintenance", "note": "Planned maintenance Saturday 22:00 to Sunday 02:00 IST. Files may be read-only."}
+  ],
+  "software_catalog": {
+    "pre_approved": ["Visual Studio Code", "Postman", "Zoom", "Slack", "Notepad++", "Python", "Git", "Microsoft Teams", "7-Zip", "Docker Desktop"],
+    "needs_approval": ["Adobe Photoshop", "Tableau", "JetBrains IntelliJ IDEA Ultimate", "Figma Professional", "Microsoft Visio"]
+  },
+  "meeting_rooms": [
+    {"id": "RM-101", "name": "Kaveri", "location": "Chennai", "floor": 1, "capacity": 4, "equipment": ["TV screen"]},
+    {"id": "RM-102", "name": "Godavari", "location": "Chennai", "floor": 1, "capacity": 8, "equipment": ["Video conferencing", "Whiteboard"]},
+    {"id": "RM-201", "name": "Himalaya", "location": "Chennai", "floor": 2, "capacity": 16, "equipment": ["Video conferencing", "Projector"]},
+    {"id": "RM-301", "name": "Nilgiri", "location": "Bengaluru", "floor": 3, "capacity": 6, "equipment": ["TV screen", "Whiteboard"]},
+    {"id": "RM-302", "name": "Western Ghats", "location": "Bengaluru", "floor": 3, "capacity": 12, "equipment": ["Video conferencing"]}
+  ],
+  "recurring_bookings": [
+    {"room_id": "RM-102", "weekdays": [0, 1, 2, 3, 4], "start": "10:00", "end": "10:30", "title": "Engineering stand-up"},
+    {"room_id": "RM-201", "weekdays": [1, 3], "start": "15:00", "end": "17:00", "title": "Leadership review"},
+    {"room_id": "RM-301", "weekdays": [0, 1, 2, 3, 4], "start": "09:30", "end": "10:00", "title": "Sales huddle"}
+  ],
+  "holidays": [
+    {"date": "2026-01-01", "name": "New Year's Day"},
+    {"date": "2026-01-15", "name": "Pongal"},
+    {"date": "2026-01-26", "name": "Republic Day"},
+    {"date": "2026-05-01", "name": "May Day"},
+    {"date": "2026-08-15", "name": "Independence Day"},
+    {"date": "2026-10-02", "name": "Gandhi Jayanti"},
+    {"date": "2026-10-20", "name": "Vijayadashami"},
+    {"date": "2026-11-09", "name": "Deepavali"},
+    {"date": "2026-12-25", "name": "Christmas"},
+    {"date": "2027-01-01", "name": "New Year's Day"},
+    {"date": "2027-01-15", "name": "Pongal"},
+    {"date": "2027-01-26", "name": "Republic Day"}
+  ],
+  "expense_limits_inr": {"travel": 25000, "meals": 1500, "internet": 1000, "training": 20000, "other": 5000},
+  "expense_claims": [
+    {"id": "EXP-0912", "employee_id": "EMP1001", "category": "travel", "amount_inr": 12450, "date": "2026-10-06", "description": "Client visit to Hyderabad: flights and cabs", "status": "Approved - paid with the October 2026 salary"},
+    {"id": "EXP-0927", "employee_id": "EMP1001", "category": "internet", "amount_inr": 999, "date": "2026-10-01", "description": "Home broadband, October", "status": "Pending approval from Karthik Rao"},
+    {"id": "EXP-0901", "employee_id": "EMP1002", "category": "meals", "amount_inr": 1380, "date": "2026-09-22", "description": "Client lunch, Koramangala", "status": "Paid on 2026-09-30"},
+    {"id": "EXP-0930", "employee_id": "EMP1002", "category": "travel", "amount_inr": 18900, "date": "2026-10-12", "description": "Mumbai customer workshop: flights and hotel", "status": "Rejected - hotel invoice missing; resubmit with the receipt"}
+  ]
+}

@@ -1,0 +1,10 @@
+# AutoGen AgentChat 0.7.x API (Swarm, SelectorGroupChat, GraphFlow, max_tool_iterations, ...)
+autogen-agentchat>=0.7,<0.8
+autogen-ext[openai]>=0.7,<0.8
+
+# Front end and data tables
+streamlit>=1.40
+pandas>=2.0
+
+# Loads OPENAI_API_KEY / OPENAI_MODEL from .env
+python-dotenv>=1.0

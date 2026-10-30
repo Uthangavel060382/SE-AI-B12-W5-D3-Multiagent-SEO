@@ -1,0 +1,14 @@
+autogen-agentchat
+autogen-ext[openai]
+autogen-core
+openai
+streamlit
+python-dotenv
+requests
+httpx
+pydantic
+pandas
+beautifulsoup4
+lxml
+tavily-python
+tenacity

@@ -1,0 +1,6 @@
+# Created at runtime by the agents and the app
+data/runtime_store.json
+data/*.tmp
+sessions/
+logs/
+team_config*.json

@@ -1,0 +1,149 @@
+[
+  {
+    "id": "KB-IT-001",
+    "department": "IT",
+    "title": "VPN keeps disconnecting or won't connect",
+    "tags": ["vpn", "globalprotect", "remote", "disconnect", "network", "connect"],
+    "content": "1) Check the VPN status first: if there is a known incident, use the workaround in the status note. 2) In GlobalProtect, choose a different gateway (Chennai or Bengaluru). 3) Sign out of GlobalProtect and sign in again. 4) Restart the laptop to restart the PanGPS service. 5) Confirm normal internet works without VPN. If it still fails, raise a ticket with the GlobalProtect error message and a screenshot."
+  },
+  {
+    "id": "KB-IT-002",
+    "department": "IT",
+    "title": "Account locked or forgotten password",
+    "tags": ["password", "locked", "lockout", "reset", "login", "mfa", "forgot"],
+    "content": "Five wrong passwords lock the account for 30 minutes. Use the self-service reset link (the help desk can send one) to set a new password; it unlocks the account immediately. New passwords need 12+ characters and can't reuse the last 5. Lost MFA phone or new phone: raise an IT ticket to re-register MFA. IT will never ask for your password."
+  },
+  {
+    "id": "KB-IT-003",
+    "department": "IT",
+    "title": "Laptop slow, broken, damaged or not booting",
+    "tags": ["laptop", "hardware", "slow", "battery", "charger", "screen", "broken", "replacement", "keyboard"],
+    "content": "Slow laptop: restart, install pending updates from Company Portal, and close browser tabs. Hardware faults (battery, charger, screen, keyboard): raise a ticket; swaps and spare chargers are at the IT counter, 2nd floor, 10:00-18:00 on working days. Lost or stolen laptop: raise an urgent ticket immediately so IT can lock and wipe it."
+  },
+  {
+    "id": "KB-IT-004",
+    "department": "IT",
+    "title": "Installing software",
+    "tags": ["software", "install", "licence", "license", "application", "app"],
+    "content": "Pre-approved software installs automatically from Company Portal within 4 hours of a request. Licensed software (for example Adobe Photoshop or Tableau) needs your manager's approval of the licence cost. Software outside the catalogue goes through a security review (about 5 working days). Installing unlicensed software is not allowed."
+  },
+  {
+    "id": "KB-IT-005",
+    "department": "IT",
+    "title": "Reporting phishing or a security incident",
+    "tags": ["phishing", "security", "suspicious", "email", "virus", "malware", "incident", "hacked", "link"],
+    "content": "Don't click links or open attachments in suspicious email; use the 'Report phishing' button in Outlook. If you already clicked a link or entered your password: reset your password immediately, raise an urgent IT ticket, and tell IT what you entered. If you suspect malware, disconnect from Wi-Fi and VPN and keep the laptop powered on for investigation."
+  },
+  {
+    "id": "KB-IT-006",
+    "department": "IT",
+    "title": "Email or Outlook not syncing",
+    "tags": ["email", "outlook", "sync", "mailbox", "calendar", "mail"],
+    "content": "Check the email status first. Then: restart Outlook, check you're online (bottom bar says 'Connected'), and try Outlook on the web. If the web works but the desktop app doesn't, repair the Office installation from Company Portal. A full mailbox (over 50 GB) stops sending; archive old mail."
+  },
+  {
+    "id": "KB-HR-001",
+    "department": "HR",
+    "title": "Leave policy",
+    "tags": ["leave", "annual", "sick", "casual", "carry", "forward", "policy", "vacation", "holiday"],
+    "content": "Annual leave: 18 days a year, apply at least 3 working days ahead. Sick leave: 10 days; a medical certificate is needed for more than 2 consecutive days and it can be applied after the fact. Casual leave: 6 days, at most 2 consecutive days. The leave year is January to December and up to 5 unused annual-leave days carry forward. Your reporting manager approves all leave. New joiners get pro-rated entitlements."
+  },
+  {
+    "id": "KB-HR-002",
+    "department": "HR",
+    "title": "Work from home and hybrid policy",
+    "tags": ["wfh", "remote", "hybrid", "home", "office", "attendance"],
+    "content": "Acme is hybrid: 3 days a week in the office. Up to 2 work-from-home days a week can be marked in SAP SuccessFactors with your manager's approval. Extended remote work (more than 2 weeks) needs HR approval. The internet allowance of INR 1,000 a month is claimed through Accounts."
+  },
+  {
+    "id": "KB-HR-003",
+    "department": "HR",
+    "title": "Health insurance and benefits",
+    "tags": ["insurance", "medical", "health", "benefits", "dependents", "hospital", "mediclaim", "cashless"],
+    "content": "Group health insurance covers INR 5 lakh per year as a family floater (employee, spouse and up to 2 children). Parents can be added with an optional top-up paid by the employee. Cashless treatment is available at network hospitals through the insurer's app. Add new dependents within 30 days of marriage or birth."
+  },
+  {
+    "id": "KB-HR-004",
+    "department": "HR",
+    "title": "Maternity, paternity and special leave",
+    "tags": ["maternity", "paternity", "bereavement", "marriage", "parental", "adoption"],
+    "content": "Maternity leave: 26 weeks. Paternity leave: 10 working days within 6 months of the birth or adoption. Bereavement leave: 3 days. Marriage leave: 5 days. Special leave is applied in SAP SuccessFactors and approved by HR as well as your manager."
+  },
+  {
+    "id": "KB-HR-005",
+    "department": "HR",
+    "title": "Updating personal details",
+    "tags": ["profile", "address", "details", "update", "name", "phone", "emergency"],
+    "content": "Update your address, phone number and emergency contact in SAP SuccessFactors under Employee Self-Service. Name changes need a supporting document uploaded to an HR ticket. Bank account changes for salary are handled by Accounts, not HR."
+  },
+  {
+    "id": "KB-ADM-001",
+    "department": "Admin",
+    "title": "Meeting room booking rules",
+    "tags": ["meeting", "room", "booking", "conference", "cancel", "book"],
+    "content": "Rooms can be booked 08:00-20:00 on working days for up to 3 hours per booking. Pick the smallest room that fits. Bookings without a check-in within 15 minutes are released automatically. Cancel bookings you don't need so others can use the room."
+  },
+  {
+    "id": "KB-ADM-002",
+    "department": "Admin",
+    "title": "ID and access cards",
+    "tags": ["id", "access", "card", "badge", "lost", "damaged", "entry"],
+    "content": "Report a lost card immediately so it can be deactivated. A replacement for a lost card costs INR 500 (deducted from salary); damaged cards are replaced free. Collect the new card from the Admin desk on the ground floor after 24 hours, with photo ID. Reception issues a temporary visitor badge in the meantime."
+  },
+  {
+    "id": "KB-ADM-003",
+    "department": "Admin",
+    "title": "Office supplies and furniture",
+    "tags": ["supplies", "stationery", "notebook", "pen", "chair", "desk", "furniture", "ergonomic"],
+    "content": "Standard stationery is delivered to your desk within 2 working days of a request (up to 20 items at a time). Ergonomic chairs and footrests need a note from HR or a doctor. Desk moves are planned by Admin on Fridays."
+  },
+  {
+    "id": "KB-ADM-004",
+    "department": "Admin",
+    "title": "Parking and transport",
+    "tags": ["parking", "car", "bike", "cab", "transport", "shuttle", "late", "night"],
+    "content": "Parking stickers are issued by the Admin desk against the vehicle's registration certificate. Office shuttles run every 30 minutes from the nearest metro station between 08:00 and 11:00 and between 17:00 and 20:00. Late-night cabs (after 21:00) must be requested from Admin before 18:00 the same day."
+  },
+  {
+    "id": "KB-FIN-001",
+    "department": "Accounts",
+    "title": "Expense claim policy",
+    "tags": ["expense", "claim", "reimbursement", "receipt", "travel", "meals", "limit", "reimburse"],
+    "content": "Submit claims within 30 days of the expense, with receipts for anything over INR 500. Per-claim limits: travel INR 25,000, meals INR 1,500, internet INR 1,000 a month, training INR 20,000 (pre-approved), other INR 5,000. Claims approved by your manager by the 25th are paid with that month's salary; later approvals are paid the following month."
+  },
+  {
+    "id": "KB-FIN-002",
+    "department": "Accounts",
+    "title": "Understanding your payslip",
+    "tags": ["payslip", "salary", "deductions", "pf", "tax", "hra", "net", "gross", "breakdown"],
+    "content": "Gross pay = basic + HRA + special allowance. Deductions: provident fund (12% of basic), professional tax, and income tax (TDS) based on your declared tax regime and investments. Net pay = gross pay - deductions. Payslips are published on the pay date in SAP SuccessFactors."
+  },
+  {
+    "id": "KB-FIN-003",
+    "department": "Accounts",
+    "title": "Salary not credited or credited late",
+    "tags": ["salary", "credited", "late", "bank", "missing", "delay", "credit", "paid"],
+    "content": "Salary is paid on the last working day of the month. Depending on the bank, the credit can take until 11:00 on the next working day. If it hasn't arrived by then, raise an Accounts ticket with the last 4 digits of your bank account. To change the salary bank account, raise an Accounts ticket with a cancelled cheque before the 20th."
+  },
+  {
+    "id": "KB-FIN-004",
+    "department": "Accounts",
+    "title": "Tax declarations and Form 16",
+    "tags": ["tax", "form16", "declaration", "investment", "regime", "tds", "proof"],
+    "content": "Declare investments and choose the tax regime in April. Submit investment proofs between 1 and 31 January; without proofs, tax is recalculated in February and March. Form 16 is issued by 15 June each year in SAP SuccessFactors."
+  },
+  {
+    "id": "KB-FIN-005",
+    "department": "Accounts",
+    "title": "Travel advances",
+    "tags": ["advance", "travel", "trip", "per", "diem", "allowance"],
+    "content": "For approved business trips you can request an advance of up to 60% of the estimated cost at least 5 working days before travel. Settle the advance with an expense claim within 15 days of returning; unsettled advances are recovered from salary."
+  },
+  {
+    "id": "KB-GEN-001",
+    "department": "General",
+    "title": "Help desk hours and response targets",
+    "tags": ["hours", "sla", "contact", "escalate", "helpdesk", "support", "response"],
+    "content": "The chat help desk is open 24x7. IT engineers are available 24x7; HR, Admin and Accounts staff work 09:30-18:30, Monday to Friday. Response targets: urgent within 1 hour, high within 4 working hours, medium within 1 working day, low within 3 working days."
+  }
+]
