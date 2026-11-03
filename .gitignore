@@ -1,7 +1,19 @@
+# Secrets — never commit
 .env
-venv/
+
+# Python
 __pycache__/
 *.pyc
-.streamlit/secrets.toml
-logs/
-outputs/
+.venv/
+venv/
+
+# Generated at runtime
+vector_store/
+logs/*.csv
+logs/*.xlsx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,82 @@
+{
+  "run_id": "00c99fb1cbc7",
+  "topic": "Generative AI in SAP ERP",
+  "status": "REVISION_LIMIT_REACHED",
+  "current_stage": "STOPPED",
+  "revision_count": 2,
+  "events": [
+    {
+      "timestamp": "2026-10-30T05:37:02.558171+00:00",
+      "stage": "RESEARCH",
+      "message": "Researching user topic"
+    },
+    {
+      "timestamp": "2026-10-30T05:37:15.490180+00:00",
+      "stage": "WRITING",
+      "message": "Creating initial article"
+    },
+    {
+      "timestamp": "2026-10-30T05:37:28.455872+00:00",
+      "stage": "SEO",
+      "message": "Optimizing article, iteration 0"
+    },
+    {
+      "timestamp": "2026-10-30T05:37:42.470191+00:00",
+      "stage": "REVIEW",
+      "message": "Reviewing article, iteration 0"
+    },
+    {
+      "timestamp": "2026-10-30T05:37:47.237784+00:00",
+      "stage": "DECISION",
+      "message": "REVISION_REQUIRED | Editorial: 90 | SEO: 60"
+    },
+    {
+      "timestamp": "2026-10-30T05:37:47.237784+00:00",
+      "stage": "REVISION",
+      "message": "Sending review feedback to Content Writer"
+    },
+    {
+      "timestamp": "2026-10-30T05:38:00.158061+00:00",
+      "stage": "SEO",
+      "message": "Optimizing article, iteration 1"
+    },
+    {
+      "timestamp": "2026-10-30T05:38:11.958433+00:00",
+      "stage": "REVIEW",
+      "message": "Reviewing article, iteration 1"
+    },
+    {
+      "timestamp": "2026-10-30T05:38:16.174611+00:00",
+      "stage": "DECISION",
+      "message": "REVISION_REQUIRED | Editorial: 94 | SEO: 75"
+    },
+    {
+      "timestamp": "2026-10-30T05:38:16.174611+00:00",
+      "stage": "REVISION",
+      "message": "Sending review feedback to Content Writer"
+    },
+    {
+      "timestamp": "2026-10-30T05:38:27.983919+00:00",
+      "stage": "SEO",
+      "message": "Optimizing article, iteration 2"
+    },
+    {
+      "timestamp": "2026-10-30T05:38:41.918637+00:00",
+      "stage": "REVIEW",
+      "message": "Reviewing article, iteration 2"
+    },
+    {
+      "timestamp": "2026-10-30T05:38:45.998872+00:00",
+      "stage": "DECISION",
+      "message": "REVISION_REQUIRED | Editorial: 94 | SEO: 75"
+    },
+    {
+      "timestamp": "2026-10-30T05:38:46.007349+00:00",
+      "stage": "STOPPED",
+      "message": "Maximum revisions reached; manual review required."
+    }
+  ],
+  "created_at": "2026-10-30T05:37:02.008681+00:00",
+  "updated_at": "2026-10-30T05:38:46.007349+00:00",
+  "last_completed_stage": "REVIEW"
+}

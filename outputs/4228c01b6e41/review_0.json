@@ -1,0 +1,36 @@
+{
+  "review": {
+    "decision": "APPROVED",
+    "scores": {
+      "factual_accuracy": 25,
+      "grammar": 15,
+      "readability": 14,
+      "structure": 15,
+      "seo_compliance": 15,
+      "source_quality": 15
+    },
+    "summary": "The article on 'Generative AI in SAP ERP' is highly accurate, well-structured, and grammatically sound. It provides comprehensive coverage of the topic, including clear explanations, relevant use cases, and real-world examples supported by credible sources. SEO optimization is excellently implemented with appropriate keyword usage and meta elements. Minor readability improvements could be made to enhance flow, but overall the article meets the intent and quality standards expected for the target audience.",
+    "strengths": [
+      "Comprehensive and factually accurate content aligned with current industry research.",
+      "Strong use of credible, authoritative sources enhancing article reliability.",
+      "Clear, logical structure with well-defined sections and helpful headings.",
+      "Excellent SEO compliance with primary and secondary keywords appropriately integrated.",
+      "Professional grammar and minimal errors ensuring a polished read.",
+      "Inclusion of practical use cases and case studies enriches reader understanding."
+    ],
+    "issues": [],
+    "revision_instructions": [
+      "Minor improvements to sentence flow for enhanced readability could be considered, though not required."
+    ],
+    "factual_verification_limitations": [
+      "Verification strictly limited to provided research report and cited references within the article.",
+      "No external, real-time validation of claims beyond supplied research and linked sources was conducted."
+    ]
+  },
+  "policy": {
+    "decision": "APPROVED",
+    "editorial_score": 99,
+    "seo_score": 90,
+    "critical_issues": 0
+  }
+}

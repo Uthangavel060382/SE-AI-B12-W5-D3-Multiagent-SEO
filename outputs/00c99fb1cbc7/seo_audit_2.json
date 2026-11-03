@@ -1,0 +1,58 @@
+{
+  "before": {
+    "primary_keyword": "Generative AI in SAP ERP",
+    "seo_score": 75,
+    "maximum_score": 100,
+    "word_count": 1213,
+    "keyword_occurrences": 7,
+    "keyword_density_percent": 2.89,
+    "meta_title_length": 59,
+    "meta_description_length": 177,
+    "h1_count": 1,
+    "h2_count": 9,
+    "h3_count": 9,
+    "checks": {
+      "Meta title length": 15,
+      "Meta description length": 0,
+      "Keyword in title and H1": 20,
+      "Keyword in introduction": 10,
+      "Heading structure": 10,
+      "Article length": 10,
+      "Keyword distribution": 0,
+      "FAQ section": 5,
+      "References": 5
+    },
+    "recommendations": [
+      "Meta description length",
+      "Keyword distribution"
+    ]
+  },
+  "after": {
+    "primary_keyword": "Generative AI in SAP ERP",
+    "seo_score": 75,
+    "maximum_score": 100,
+    "word_count": 1213,
+    "keyword_occurrences": 7,
+    "keyword_density_percent": 2.89,
+    "meta_title_length": 59,
+    "meta_description_length": 177,
+    "h1_count": 1,
+    "h2_count": 9,
+    "h3_count": 9,
+    "checks": {
+      "Meta title length": 15,
+      "Meta description length": 0,
+      "Keyword in title and H1": 20,
+      "Keyword in introduction": 10,
+      "Heading structure": 10,
+      "Article length": 10,
+      "Keyword distribution": 0,
+      "FAQ section": 5,
+      "References": 5
+    },
+    "recommendations": [
+      "Meta description length",
+      "Keyword distribution"
+    ]
+  }
+}

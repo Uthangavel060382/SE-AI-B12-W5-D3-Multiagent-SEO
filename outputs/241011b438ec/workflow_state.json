@@ -1,0 +1,42 @@
+{
+  "run_id": "241011b438ec",
+  "topic": "Generative AI in SAP ERP",
+  "status": "APPROVED",
+  "current_stage": "COMPLETE",
+  "revision_count": 0,
+  "events": [
+    {
+      "timestamp": "2026-10-30T05:59:18.375392+00:00",
+      "stage": "RESEARCH",
+      "message": "Researching user topic"
+    },
+    {
+      "timestamp": "2026-10-30T05:59:30.087864+00:00",
+      "stage": "WRITING",
+      "message": "Creating initial article"
+    },
+    {
+      "timestamp": "2026-10-30T05:59:43.905866+00:00",
+      "stage": "SEO",
+      "message": "Optimizing article, iteration 0"
+    },
+    {
+      "timestamp": "2026-10-30T05:59:55.371662+00:00",
+      "stage": "REVIEW",
+      "message": "Reviewing article, iteration 0"
+    },
+    {
+      "timestamp": "2026-10-30T05:59:58.375743+00:00",
+      "stage": "DECISION",
+      "message": "APPROVED | Editorial: 99 | SEO: 100"
+    },
+    {
+      "timestamp": "2026-10-30T05:59:58.391263+00:00",
+      "stage": "COMPLETE",
+      "message": "Article approved by automated review; human publication approval is pending."
+    }
+  ],
+  "created_at": "2026-10-30T05:59:17.485113+00:00",
+  "updated_at": "2026-10-30T05:59:58.391263+00:00",
+  "last_completed_stage": "REVIEW"
+}

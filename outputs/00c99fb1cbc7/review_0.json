@@ -1,0 +1,71 @@
+{
+  "review": {
+    "decision": "REVISION_REQUIRED",
+    "scores": {
+      "factual_accuracy": 23,
+      "grammar": 14,
+      "readability": 13,
+      "structure": 14,
+      "seo_compliance": 12,
+      "source_quality": 14
+    },
+    "summary": "The article provides a technically accurate and well-structured exploration of generative AI in SAP ERP, particularly focusing on tabular AI and real-world use cases such as AMOREPACIFIC and DACHSER. It aligns well with the research report and target audience, featuring clear explanations and relevant references. However, SEO compliance is notably low due to suboptimal meta title and description lengths and poor keyword distribution beyond primary keyword inclusion. Minor editorial issues in readability and phrasing hinder some flow, and a richer FAQ or additional references could enhance source authority.",
+    "strengths": [
+      "Strong alignment with latest industry research and case studies",
+      "Accurate and clear explanation of generative AI and tabular AI concepts",
+      "Good integration of real-world examples substantiated with credible sources",
+      "Well-structured with consistent use of headings and subheadings",
+      "Comprehensive FAQ and featured snippet sections that enhance information delivery"
+    ],
+    "issues": [
+      {
+        "category": "seo",
+        "severity": "major",
+        "description": "Meta title length exceeds optimal limit at 80 characters, potentially affecting search engine display and ranking.",
+        "suggested_correction": "Shorten the meta title to under 60 characters while retaining key information about generative AI and SAP ERP."
+      },
+      {
+        "category": "seo",
+        "severity": "major",
+        "description": "Meta description length (137 characters) is below optimal length for search engines which typically prefer 150-160 characters, potentially limiting snippet impact.",
+        "suggested_correction": "Extend the meta description to between 150-160 characters, including rich keywords and a compelling call to action."
+      },
+      {
+        "category": "seo",
+        "severity": "major",
+        "description": "Keyword distribution is suboptimal; primary keyword density is low and secondary keywords are underutilized, limiting SEO effectiveness beyond initial keyword occurrences.",
+        "suggested_correction": "Increase the use of secondary and long-tail keywords naturally throughout the content, especially in body paragraphs, to improve relevance and ranking potential."
+      },
+      {
+        "category": "readability",
+        "severity": "minor",
+        "description": "Some sections employ complex sentences and technical jargon that might reduce accessibility for non-technical readers within target audience.",
+        "suggested_correction": "Simplify sentence structures and provide brief definitions or explanations for technical terms to ensure broader reader comprehension."
+      },
+      {
+        "category": "structure",
+        "severity": "minor",
+        "description": "The article lacks an explicit FAQ section header at the beginning of the FAQ, which could improve scanning and UX.",
+        "suggested_correction": "Add a clear 'Frequently Asked Questions' heading at the start of the FAQ section for better content structure and UX."
+      }
+    ],
+    "revision_instructions": [
+      "Shorten the meta title to meet SEO best practices (under 60 characters).",
+      "Expand the meta description to 150-160 characters incorporating keywords naturally.",
+      "Enhance keyword distribution by integrating secondary and long-tail keywords throughout the article body.",
+      "Simplify complex sentences and clarify technical jargon to improve readability for a mixed audience.",
+      "Add an explicit FAQ section heading before the list of questions to improve content structure and user experience."
+    ],
+    "factual_verification_limitations": [
+      "Verification is based on the supplied research report and known public sources cited within the article; external live factual verification is not possible in this review.",
+      "Specific recent developments or proprietary SAP technologies not publicly disclosed at the time of research may be missed.",
+      "Performance claims, especially qualitative benefits, while consistent with cited sources, are not independently verified with primary data."
+    ]
+  },
+  "policy": {
+    "decision": "REVISION_REQUIRED",
+    "editorial_score": 90,
+    "seo_score": 60,
+    "critical_issues": 0
+  }
+}
